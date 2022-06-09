@@ -1,0 +1,70 @@
+root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    color: var(--primary-text-color);
+}
+
+.site-nav {background-color: #fff;
+    color: var(--title-text-color);
+}
+
+.site-nav:hover, .site-nav:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .current {
+    color: var(--accent-color)
+}
+.mail:focus,
+.mail:hover  {
+    color: var(--accent-color);
+}
+
+.tel:focus,
+.tel:hover  {
+    color: var(--accent-color);
+}
+
+.tel {
+    color: var(--primary-text-color);
+}
+
+.mail {
+    color: var(--primary-text-color);
+}
+
+.footer-address {
+    color: rgba(255,255,255,1);
+}
+
+.footer-mail, 
+.footer-tel {
+    color: rgba(255,255,255,0.6);
+}
+
+.test-link:active {
+    background-color: tile;
+}
+
+.logo { 
+    color: var(--title-text-color);
+ }
+
+footer {
+     background-color: 
+     rgba(47, 48, 58, 1);
+}
+
+ h1, h2, h3, h4, h5, h6 {
+     color:var(--title-text-color);
+}
+
+.button {
+    background-color: =rgba(0, 0, 0, 0.15)
+}
+
+.mark {color:none}
